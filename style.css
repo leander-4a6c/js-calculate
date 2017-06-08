@@ -1,0 +1,12 @@
+.resultaat{
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	margin-top: 20px;
+
+}
+.result{
+	color: white;
+	line-height: 75px;
+	margin-left: 20px;
+}
