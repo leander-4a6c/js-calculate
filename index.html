@@ -7,20 +7,19 @@
 </head>
 <body>
 	<h1>calculate</h1>
-	<form method="">
-		numbers: <input type="number" name="nummers">
+		numbers: <input type="text" name="nummers" id="getallen">
 		<br>
-		operation: <select>
-			<option value="+">x</option>
+		operation: <select id="keuze">
+			<option value="+">+</option>
 			<option value="*">*</option>
 			<option value="-">-</option>
 			<option value="/">/</option>
 		</select>
 		<br>
-		<input type="submit" name="calculate">
-	</form>
+		<input type="submit" name="calculate" onclick="optellen();">
 	<div class="resultaat">
-		<p class="result">result -</p>
+		<p id="result">result -</p>
 	</div>
+	<script src="script.js"></script>
 </body>
 </html>
