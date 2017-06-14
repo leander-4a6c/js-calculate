@@ -20,9 +20,13 @@ function optellen(){
 		if (operator == '+') {
             result = nummer + nummer2;
 
-        } 
+        } else if (operator == '-') {
+            result = nummer - nummer2;
+
+        }
         return result;
     }
     console.log(result);
     document.getElementById('result').innerHTML = "result:" + result;
 }
+
